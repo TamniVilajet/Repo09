@@ -3,7 +3,7 @@ function myForLoop1() {
     var evenNumbers = '';
     for(var i = 0; i<9; i++) {
         if(i%2===0){
-            evenNumbers = evenNumbers + i + ((i != 8) ? "," : "");
+            evenNumbers = evenNumbers + i + ((i != 8) ? ", " : "");
         }
     }
     return evenNumbers;
@@ -13,7 +13,7 @@ function myForLoop2() {
     var evenInverseNumbers = '';
     for(var i = 9; i>=0; i--) {
         if(i%2===0){
-            evenInverseNumbers = evenInverseNumbers + i + ((i != 0) ? "," : "");
+            evenInverseNumbers = evenInverseNumbers + i + ((i != 0) ? ", " : "");
         }
     }
     return evenInverseNumbers;
