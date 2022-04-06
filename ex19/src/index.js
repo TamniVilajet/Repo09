@@ -3,7 +3,7 @@ function myDoWhile(){
     var myNumbers = '';
     var i = 0;
     do {
-        myNumbers = myNumbers + i + ((i != 9) ? "," : "");
+        myNumbers = myNumbers + i + ((i != 9) ? ", " : "");
         i++;
     }while(i < 10);
 
